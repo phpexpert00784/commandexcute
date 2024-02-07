@@ -36,8 +36,8 @@ class RenderCommand extends Command
 
             //check response from xml file
             if(is_array($xml)) {
-                $io->out(print_r($xml));
-
+                //$io->out(print_r($xml));
+                $io->out('Successfuly fetched data');
                 //start function
             }else{
                  $io->out('Empty file OR Invalid file name');
