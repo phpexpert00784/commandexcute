@@ -46,7 +46,6 @@ class RenderCommand extends Command
         }else{
             $io->out('Invalid XML file format');
         }
-        
-       
     
     }
+}
